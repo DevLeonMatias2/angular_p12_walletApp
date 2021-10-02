@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div class="container">
+  <p-orderList [value]="products" [listStyle]="{'height':'auto'}" header="03 de ago 2021" filterBy="name"
+               filterPlaceholder="Filter by name" dragdrop="true">
+    <ng-template let-product pTemplate="item">
+      <div class="product-item d-flex">
+        <div class="product-list-detail d-flex p-1">
+          <div class="container-img">
+            <img width="68" height="68" src="assets/images/Logo.png" alt="">
+          </div>
+          <div class="container-item p-2">
+            <h5 class="mb-2">{{product.name}}</h5>
+            <span class=" ">01:43 p.m</span>
+          </div>
+
+        </div>
+
+        <div class="container-price">
+          <h6>${{product.price}}</h6>
+        </div>
+      </div>
+    </ng-template>
+  </p-orderList>
+</div>
+<app-footer></app-footer>

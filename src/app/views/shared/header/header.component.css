@@ -1,0 +1,14 @@
+.navbar{
+  background: darkblue;
+}
+.image{
+  width: 48px;
+  height: 48px;
+}
+.btn{
+  border: 2px solid white;
+  width: 500px;
+  background: darkblue;
+  color: white;
+  font-size: 16px;
+}

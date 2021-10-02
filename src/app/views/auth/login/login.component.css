@@ -1,0 +1,40 @@
+
+.container{
+  padding-top:130px;
+  padding-bottom: 100%;
+  background: #8F8F8F;
+  margin: 20px;
+
+
+}
+.container-image{
+  width: 90px;
+  height: 90px;
+
+}
+.form-label{
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+}
+.container-title h1{
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-size: 32px;
+  color: white;
+}
+.item-social{
+  padding-bottom: 16px;
+}
+.item-social input{
+ height: 50px;
+}
+.btn-primary{
+  height: 50px;
+  background: darkblue;
+}
+
+.container-button button{
+  font-size: 22px;
+  font-style: normal;
+}
